@@ -16,6 +16,8 @@ const Home = () => {
               <Navbar></Navbar>
               <img className="background" src={background}/>
               
+
+              <div className="container">
               <div className="container row">
                   <div className="col-md-6">
                       <About></About>
@@ -38,8 +40,9 @@ const Home = () => {
                       <Musics></Musics>
                   </div>
               </div>
-             
-
+                  
+                   </div>
+        
               <div>
                   <Footer></Footer>
               </div>
