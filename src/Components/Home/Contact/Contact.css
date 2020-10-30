@@ -1,0 +1,19 @@
+
+.body{
+    background-color: rgb(29, 28, 28);
+}
+
+.contact{
+    height: 400px;
+    width: 100%;
+}
+
+.info {
+    
+    color: white;
+    text-align: center;
+    padding: 5%;
+    font-size: 10px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    
+}

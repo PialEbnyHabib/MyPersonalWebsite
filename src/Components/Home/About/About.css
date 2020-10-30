@@ -1,0 +1,22 @@
+.Box {
+
+   margin: 6%;
+   padding: 5%;
+   box-shadow: 2px 2px 20px gray;
+   font-size: 20px;
+   border-radius: 5px; 
+
+}
+
+.images{
+    height: 250px;
+    width: 250px;
+    margin-left: 35%;
+    margin-top: 5%;
+    
+}  
+
+.resume{
+    text-align: center;
+    padding: 5%;
+}
