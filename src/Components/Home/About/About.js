@@ -6,7 +6,7 @@ import './About.css' ;
 import image from "../../.././Image/18-12-2018-(3).png" 
 
 const About = () => {
-    return (
+    return ( 
         <div className="container " >
          
             <img className="images" src={image}/>

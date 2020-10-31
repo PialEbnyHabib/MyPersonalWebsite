@@ -1,7 +1,17 @@
 .title{
-    text-align: center;
-    font-size: 50px;
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(41, 40, 40);
+    
+}
+
+.projectinfo{
+    color: white;
+    padding: 2%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.projectinfo:hover{
+    border: 10px solid rgb(238, 238, 238);
 }
 
 .projectimg {
@@ -17,4 +27,16 @@
     padding: 2%;
     box-shadow: 5px 5px 10px rgb(224, 224, 224);
 
+}
+
+.visitsite{
+    text-decoration: none; 
+    color: white;
+
+}
+
+.visitsite:hover{
+    text-decoration: none; 
+    color: rgb(204, 204, 204);
+  
 }

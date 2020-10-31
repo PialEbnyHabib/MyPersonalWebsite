@@ -19,29 +19,17 @@ const Home = () => {
 
               <div className="container">
               <div className="container row">
-                  <div className="col-md-6">
-                      <About></About>
+                  <div className="col-md-6 blog">
+                  <img className="blogimage" src={blog}/>
+                  <Link  to="/Blog" target="blank"> <button type="button" class="btnbtn btn-secondary btn-lg btn-block btn-dark">Read Blog</button></Link>
                   </div>
                   <div className="col-md-6 projects">
-                      <h2>Projects</h2>
+                      <h2 className="projecttitle">Projects</h2>
                      <img className="projectimg" src={projects} alt=""/> 
                      <Link  to="/Projects"> <button type="button" class="btn btn-dark">Veiw Projects</button></Link>
                   </div>
               </div>
-
-
-
-              <div className="container row third">
-                  <div className="col-md-6">
-                   <img className="blogimage" src={blog}/>
-                  <Link  to="/Blog" target="blank"> <button type="button" class="btnbtn btn-secondary btn-lg btn-block btn-dark">Read Blog</button></Link>
-                  </div>
-                  <div className="col-md-6">
-                      <Musics></Musics>
-                  </div>
               </div>
-                  
-                   </div>
         
               <div>
                   <Footer></Footer>
@@ -54,4 +42,4 @@ const Home = () => {
     );
 };
 
-export default Home;   <h1>Pial </h1>
+export default Home;   

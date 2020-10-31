@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
 .background {
 
     width: 100%;
@@ -8,7 +11,11 @@
     padding: 5%;
     width: 100%;
     text-align: center;
-    padding-top: 15%;
+      
+}
+
+.projecttitle{
+    font-family: 'Fredoka One', cursive;
 }
 
 .projectimg{
@@ -25,4 +32,10 @@
     width: 100%;
     padding: 5%;
     padding-bottom: 20%;
+}
+
+.blog{
+    padding: 5%;
+    width: 100%;
+    padding-top: 25%;
 }
