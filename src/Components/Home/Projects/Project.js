@@ -6,9 +6,12 @@ import project3 from '../../../Image/project3.png'
 import project4 from '../../../Image/project4.png'
 import Navbar from '../Navbar/Navbar';
 import "./Project.css";
+import AOS from 'aos' ;
+import "aos/dist/aos.css";
 
 
 const Project = () => {
+    AOS.init({ duration : 1500});
     return (
         <div>
             <Navbar></Navbar>
@@ -19,7 +22,7 @@ const Project = () => {
 
                 
 <div className="row">
-           <div className= "col-md-5 box projectinfo"> 
+           <div className= "col-md-5 box projectinfo" data-aos="fade-up-right"> 
                <img className="projectimg" src={project1}></img>
                <br></br>
                <h3>Creative Agency</h3>
@@ -27,7 +30,7 @@ const Project = () => {
                <button type="button" class="btn btn-dark"><a className="visitsite" href="//agency-acd69.web.app">Visit Site</a></button>
            </div>
            <div className="col-md-2"></div>
-           <div className= "col-md-5 box projectinfo"> 
+           <div className= "col-md-5 box projectinfo" data-aos="fade-up-left"> 
                <img className="projectimg" src={project2}></img>
                <br></br>
                <h3>Travel Guru</h3>
@@ -37,14 +40,14 @@ const Project = () => {
        </div>
                   <br></br>
        <div className="row">
-           <div className= "col-md-5 box projectinfo"> 
+           <div className= "col-md-5 box projectinfo" data-aos="fade-down-right"> 
                <img className="projectimg" src={project3}></img>
                <h3>Online course</h3>
                <h5>A responsive site using React.js , user can enroll in any course with this site.</h5>
                <button type="button" class="btn btn-dark"><a className="visitsite" href="https://xenodochial-pike-cc6c59.netlify.app">Visit Site</a></button>
            </div>
            <div className="col-md-2"></div>
-           <div className= "col-md-5 box projectinfo"> 
+           <div className= "col-md-5 box projectinfo" data-aos="fade-down-left" > 
                <img className="projectimg" src={project4}></img>
                <h3> E-School</h3>
                <h5>A responsive Using HTML, CSS and Bootstrap.</h5>
