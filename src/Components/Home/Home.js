@@ -8,16 +8,44 @@ import Footer from './Footer/Footer';
 import blog from '../../Image/blog.png'
 import AOS from 'aos' ;
 import "aos/dist/aos.css";
+import TextTransition, { presets } from "react-text-transition";
 
+const TEXTS = [
+    "Hello," ,
+    "I'm Pial Ebny Habib",
+    "A web Developer"
+  ];
 
 const Home = () => {
     AOS.init({duration:1500});
 
+    const [index, setIndex] = React.useState(0);
+ 
+  React.useEffect(() => {
+    const intervalId = setInterval(() =>
+      setIndex(index => index + 1),
+      3000 // every 3 seconds
+    );
+  });
+
+  
     return (
         <div>
               <Navbar></Navbar>
-              <img className="background" src={background}/>
-              
+                 <div className="Intro">
+
+                 <h1 className=" container">
+                
+                <TextTransition
+                    text={ TEXTS[index % TEXTS.length] }
+                    springConfig={ presets.wobbly }
+                />
+                </h1>
+
+                 </div>
+                 
+
+                
 
               <div className="container">
               <div className="container row Information">
@@ -36,7 +64,9 @@ const Home = () => {
                   </div>
               </div>
               </div>
-   
+
+            
+          
               <div>
                   <Footer></Footer>
               </div>

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Syne+Mono&display=swap');
+
 
 .background {
 
@@ -37,7 +39,7 @@
 .blog{
     padding: 5%;
     width: 100%;
-    padding-top: 25%;
+    padding-top: 10%%;
 }
 
 .Information {
@@ -45,3 +47,17 @@
     padding-top: 10%;
 }
 
+
+
+
+.Intro{
+    background-image: url("../../Image/IMG_1139.jpg");
+   background-size: 100%;
+   height: 350px;
+   background-repeat: no-repeat;
+    padding-top: 10%;
+    color: rgb(241, 241, 241);
+    font-size: 55px;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
