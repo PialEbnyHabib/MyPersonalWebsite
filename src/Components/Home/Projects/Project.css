@@ -1,20 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+JP:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=M+PLUS+1p&family=Roboto:wght@300&display=swap');
 
 .title{
-    background-color: rgb(41, 40, 40);
+    background-color: white;
+    align-content: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.062);;
+    border-radius: 50px;
     
 }
 
+.titletext{
+    text-align: center;
+    font-size: 5px;
+   font-family: 'Roboto', sans-serif;
+   padding: 2%;
+}
+
+
 .projectinfo{
-    color: white;
-    padding: 15%%;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(26, 25, 25);
+    padding: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: 'Roboto', sans-serif;
+    border-color: rgb(158, 157, 157);
 }
 
 .projectinfo:hover{
-    border: 10px solid rgb(238, 238, 238);
+    border: 1px solid rgb(209, 209, 209);
+    
+    
 }
 
 .projectimg {
@@ -25,21 +40,38 @@
     padding: 5%;
 }
 
-.box{
+.projectdescription{
+    height: 50%;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+}
 
+
+.box{
+    height: 100%;
+    width: 100%;
     padding: 2%;
-    box-shadow: 5px 5px 10px rgb(224, 224, 224);
+    outline-color: black;
+   
 
 }
 
+.visitbutton{
+    align-items: center;
+   
+}
 .visitsite{
     text-decoration: none; 
     color: white;
+    text-align: center;
 
 }
+
 
 .visitsite:hover{
     text-decoration: none; 
     color: rgb(204, 204, 204);
   
 }
+

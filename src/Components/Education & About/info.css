@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=M+PLUS+1p&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=M+PLUS+1p&family=Roboto:wght@300&display=swap');
+
+
+
+.Information{
+ 
+}
+
+
+.infocontent{
+
+}
+
+.Infotitle{
+   font-size: 5px;
+   font-family: 'Roboto', sans-serif;
+   padding: 2%;
+   color: #1b1c1d;
+   text-align: center;
+}
+
+.educationname{
+   font-size: 5px;
+   font-family: 'Roboto', sans-serif;
+   padding: 2%;
+   color: #1b1c1d;
+}

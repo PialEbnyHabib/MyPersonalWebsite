@@ -1,29 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+JP:wght@500&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=M+PLUS+1p&family=Roboto:wght@300&display=swap');
 
-.Box {
 
-   margin: 6%;
-   padding: 5%;
-   box-shadow: 2px 2px 20px gray;
-   font-size: 20px;
-   border-radius: 5px; 
-   font-family: 'Open Sans', sans-serif;
+.aboutcontent{
 
+  font-family: 'Roboto', sans-serif;
+  padding: 5%;
+  color: #1b1c1d; 
+  text-align: center;
 }
 
-.images{
-    height: 250px;
-    width: 250px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-    margin-top: 5%;
-    padding: 2% ;
-    
-    
-}  
+.aboutwriting{
+  font-size: 15px;
+  margin-top: 5%;
+}
 
-.resume{
-    text-align: center;
-    padding: 5%;
+.educationtitle{
+
+  font-family: 'Roboto', sans-serif;
+  padding: 5%;
+  color: #1b1c1d; 
+  text-align: center;
+}
+
+.educationname{
+  font-size: 5px;
+  font-family: 'Roboto', sans-serif;
+  padding: 2%;
+  color: #1b1c1d;
+  flex-direction: row;
+  align-items: right;
+  font-size: 2px;
+  
+}
+
+.education{
+  padding: 2%;
+  margin-bottom: 30%;
 }

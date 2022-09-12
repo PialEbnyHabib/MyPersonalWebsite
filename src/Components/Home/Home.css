@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
 
 
 .background {
@@ -8,6 +9,17 @@
     width: 100%;
     height: 100%;
 }
+
+.Introduction{
+    text-align: center;
+    font-size: 150;
+    font-family: 'Frijole', cursive;
+    color: black;
+    box-shadow: 5px white;
+    margin: 6%;
+    padding-bottom: 2%;
+}
+
 
 .projects{
     padding: 5%;
@@ -18,6 +30,7 @@
 
 .projecttitle{
     font-family: 'Fredoka One', cursive;
+    text-align: center;
 }
 
 .projectimg{
@@ -39,7 +52,7 @@
 .blog{
     padding: 5%;
     width: 100%;
-    padding-top: 10%%;
+    padding-top: 10%;
 }
 
 .Information {
@@ -51,13 +64,26 @@
 
 
 .Intro{
-    background-image: url("../../Image/IMG_1139.jpg");
+    background-image: url("../../Image/coding.gif");
    background-size: 100%;
-   height: 350px;
+   background-blend-mode: lighten;
+   height: 800px;
    background-repeat: no-repeat;
     padding-top: 10%;
     color: rgb(241, 241, 241);
     font-size: 55px;
     font-family: 'Noto Sans JP', sans-serif;
     
+}
+
+.See{
+    text-decoration: none; 
+    color: white;
+    text-align: center;
+}
+
+.See:hover{
+    text-decoration: none; 
+    color: rgb(204, 204, 204);
+  
 }
